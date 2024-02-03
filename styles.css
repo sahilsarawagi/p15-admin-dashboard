@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  
+}
+header {
+  border:  1px solid red;
+  grid-column: 2 / 3;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+main {
+  border:  1px solid black;
+  grid-column: 2/3;
+  background-color: #e5e7eb;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.sidebar {
+  border:  1px solid green;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  background-color: #60a5fa;
+  
+}
+
+#searchbar {
+  width: 500px;
+  height: 30px ;
+  background-color: #d1d5db;
+  border-radius: 15px;
+}
+
+.circle {
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.small {
+  height: 50px;
+  width: 50px;
+}
+.big {
+  height: 80px;
+  width: 80px;
+}
+.button {
+  display: inline-block;
+  background-color: #60a5fa;
+  padding: 10px;
+  width: 50px;
+  height: auto;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 12px; 
+  font-size: 15px; 
+}
+
+.project p {
+  font-size: 18px;
+  font-family: sans-serif;
+  /* color: white; */
+  text-align: left;
+
+}
+
+.project .card {
+  background-color: #FFFFFF;
+  color: black;
+  text-align: center;
+  height: 220px;
+  
+}
+
+.head {
+  display: flex;
+}
+.project {
+  padding: 35px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+  gap: 30px;
+}
+
+.project .card p {
+  padding-left: 30px;
+  padding-right: 30px;
+  /* background-color: #60a5fa; */
+  
+}
+div ,p {
+  font-family: 'Roboto';
+  
+}
+
+.title {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+.description {
+  margin-top: 0px;
+  padding-top: 2px;
+}
+.sidebox .card {
+  background-color: #ffffff;
+  padding: 35px;
+  margin-top: 30px;
+  width: 300px;
+}
+.sidebox .profile {
+  background-color: #ffffff;
+  padding: 35px;
+  width: 300px;
+}
+
+.sidebar li {
+  color: white;
+  padding-left: 20px;
+  font-weight: bold;
+}
+.dash {
+  font-size: 50px ;
+  padding-top: 45px;
+  display: flex;
+  align-items: center;
+}
+.personal-info, .help {
+  font-size: 25px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  
+}
+.home {
+  padding-top: 45px;
+}
+.settings {
+  padding-top: 30px;
+}
+.sidebar .dash img {
+  width: 80px;
+  height: 80px;
+
+}
+.sidebar .personal-info img,.sidebar .help img {
+  width: 35px;
+  height: 35px;
+  padding-left: 23px;
+  padding-right: 27px;
+}
+img {
+  filter: invert(1);
+}
+
+
+/* ul .dash::before {} */
