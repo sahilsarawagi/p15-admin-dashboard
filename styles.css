@@ -33,10 +33,11 @@ main {
 }
 
 #searchbar {
-  width: 500px;
+  width: 800px;
   height: 30px ;
   background-color: #d1d5db;
   border-radius: 15px;
+  margin-left: 15px;
 }
 
 .circle {
@@ -56,12 +57,13 @@ main {
   display: inline-block;
   background-color: #60a5fa;
   padding: 10px;
-  width: 50px;
+  width: 80px;
   height: auto;
   color: #ffffff;
   text-align: center;
-  border-radius: 12px; 
+  border-radius: 25px; 
   font-size: 15px; 
+  margin-left: 50px;
 }
 
 .project p {
@@ -82,6 +84,9 @@ main {
 
 .head {
   display: flex;
+  align-items: center;
+  padding: 8px;
+  padding-left: 25px;
 }
 .project {
   padding: 35px;
@@ -117,12 +122,13 @@ div ,p {
   background-color: #ffffff;
   padding: 35px;
   margin-top: 30px;
-  width: 300px;
+  width: 250px;
 }
 .sidebox .profile {
   background-color: #ffffff;
   padding: 35px;
-  width: 300px;
+  width: 250px;
+  
 }
 
 .sidebar li {
@@ -132,7 +138,7 @@ div ,p {
 }
 .dash {
   font-size: 50px ;
-  padding-top: 45px;
+  padding-top: 50px;
   display: flex;
   align-items: center;
 }
@@ -160,9 +166,38 @@ div ,p {
   padding-left: 23px;
   padding-right: 27px;
 }
-img {
+.sidebar img {
   filter: invert(1);
 }
+header img{
+  width: 25px;
+  height: 25px;
+}
 
+.circular--square { 
+  border-top-left-radius: 50% 50%; 
+  border-top-right-radius: 50% 50%; 
+  border-bottom-right-radius: 50% 50%; 
+  border-bottom-left-radius: 50% 50%;
+  
+ }
+header p {
+  font-weight: bold;
+  padding-left: 18px;  
+}
+.bell {
+  padding-left: 200px;
+  padding-right: 25px;
+}
+.new {
+  margin-left: 640px;
+}
 
-/* ul .dash::before {} */
+.profilebox {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.text {
+  padding-left: 15px;
+}
